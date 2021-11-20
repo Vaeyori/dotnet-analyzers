@@ -51,7 +51,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{37E2
 		.config\dotnet-tools.json = .config\dotnet-tools.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaeyori.Analyzers", "src\Vaeyori.Analyzers\Vaeyori.Analyzers.csproj", "{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -62,6 +74,7 @@ Global
 		{1CF99816-1240-4DF2-BCE3-248A23932681} = {13C97681-DBD7-4CA6-B65E-FC767B4B9AFE}
 		{3990D9F4-6227-4764-AAAE-BF035E3BC77C} = {13C97681-DBD7-4CA6-B65E-FC767B4B9AFE}
 		{37E270AF-D16D-4F7C-BE51-95C93CB26582} = {ADE7DE33-AE25-40C2-8F00-8E903B083B9E}
+		{F1F29BB4-A188-4694-BF7B-69F6CC7B5A51} = {FEB5F3EC-7893-448F-8AC0-1D15EE814816}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {291237E1-E9AB-4E73-9A1B-7233B4D0CF95}
