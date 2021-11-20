@@ -28,7 +28,7 @@ stages:
       - task: DotNetCoreCLI@2
         inputs:
           command: 'build'
-          projects: 'dotnet-specifications.sln'
+          projects: 'dotnet-analyzers.sln'
 
   #- stage: 'UnitTests'
   #  jobs:
@@ -74,11 +74,11 @@ stages:
       - task: DotNetCoreCLI@2
         inputs:
           command: 'build'
-          projects: 'dotnet-specifications.sln'
+          projects: 'dotnet-analyzers.sln'
       - task: DotNetCoreCLI@2        
         inputs:
           command: 'pack'
-          packagesToPack: '**/Vaeyori.Specifications.Abstractions.csproj'
+          packagesToPack: '**/Vaeyori.Analyzers.csproj'
           includesymbols: true
           versioningScheme: 'byBuildNumber'
       - task: NuGetCommand@2
