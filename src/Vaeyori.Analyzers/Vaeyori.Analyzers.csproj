@@ -9,10 +9,10 @@
     <RepositoryUrl>https://github.com/Vaeyori/dotnet-analyzers</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>analyzers</PackageTags>
-    <PackageLicenseFile>..\..\license.md</PackageLicenseFile>
-    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
