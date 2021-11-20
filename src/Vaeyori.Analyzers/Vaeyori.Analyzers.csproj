@@ -4,7 +4,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/Vaeyori/dotnet-analyzers</PackageProjectUrl>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Vaeyori/dotnet-analyzers</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>analyzers</PackageTags>
+    <PackageLicenseFile>..\..\license.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CleanCodeNet" Version="0.3.6" />
