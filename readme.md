@@ -23,4 +23,4 @@ Contributions are always welcome! Please read the [contribution guidelines](/con
 
 ## License
 
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+[MIT](https://choosealicense.com/licenses/mit/)
