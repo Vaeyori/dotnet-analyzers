@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
 		contributing.md = contributing.md
+		GitVersion.yml = GitVersion.yml
 		license.md = license.md
 		readme.md = readme.md
 	EndProjectSection
@@ -27,6 +29,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{3FD45B28
 		.docs\repository.structure.md = .docs\repository.structure.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".pipelines", ".pipelines", "{13C97681-DBD7-4CA6-B65E-FC767B4B9AFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".scripts", ".scripts", "{1CF99816-1240-4DF2-BCE3-248A23932681}"
+	ProjectSection(SolutionItems) = preProject
+		.pipelines\.scripts\run.mutation.tests.ps1 = .pipelines\.scripts\run.mutation.tests.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".templates", ".templates", "{3990D9F4-6227-4764-AAAE-BF035E3BC77C}"
+	ProjectSection(SolutionItems) = preProject
+		.pipelines\.templates\copy.from.container.yml = .pipelines\.templates\copy.from.container.yml
+		.pipelines\.templates\generate.version.yml = .pipelines\.templates\generate.version.yml
+		.pipelines\.templates\publish.codecoverage.results.yml = .pipelines\.templates\publish.codecoverage.results.yml
+		.pipelines\.templates\publish.mutation.test.results.yml = .pipelines\.templates\publish.mutation.test.results.yml
+		.pipelines\.templates\publish.test.results.yml = .pipelines\.templates\publish.test.results.yml
+		.pipelines\.templates\repository.tag.yml = .pipelines\.templates\repository.tag.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{37E270AF-D16D-4F7C-BE51-95C93CB26582}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +58,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{96178CB0-5607-491A-B1A7-87623276D0EE} = {ADE7DE33-AE25-40C2-8F00-8E903B083B9E}
 		{3FD45B28-3CF0-4599-96F9-7B0CA3B95FC3} = {ADE7DE33-AE25-40C2-8F00-8E903B083B9E}
+		{13C97681-DBD7-4CA6-B65E-FC767B4B9AFE} = {ADE7DE33-AE25-40C2-8F00-8E903B083B9E}
+		{1CF99816-1240-4DF2-BCE3-248A23932681} = {13C97681-DBD7-4CA6-B65E-FC767B4B9AFE}
+		{3990D9F4-6227-4764-AAAE-BF035E3BC77C} = {13C97681-DBD7-4CA6-B65E-FC767B4B9AFE}
+		{37E270AF-D16D-4F7C-BE51-95C93CB26582} = {ADE7DE33-AE25-40C2-8F00-8E903B083B9E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {291237E1-E9AB-4E73-9A1B-7233B4D0CF95}
