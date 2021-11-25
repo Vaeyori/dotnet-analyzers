@@ -23,7 +23,6 @@ Install via Package Manager
 | Package Name | Summary |
 |--|--|
 | Microsoft.CodeAnalysis.NetAnalyzers | Primary analyzers for .Net 5+ |
-| Microsoft.CodeAnalysis.PublicApiAnalyuzers | Helps library authors monitor changes to their public APIs |
 | Microsoft.CodeAnalysis.CSharp.Analzyer.CodeFix.MSTest | Analyzers for the MSTest library |
 | Microsoft.CodeAnalysis.CSharp.Analzyer.CodeRefactoring.MSTest | Analyzers for the MSTest library |
 | Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.MSTest |  Analyzers for the MSTest library |
