@@ -23,12 +23,6 @@ Install via Package Manager
 | Package Name | Summary |
 |--|--|
 | Microsoft.CodeAnalysis.NetAnalyzers | Primary analyzers for .Net 5+ |
-| Microsoft.CodeAnalysis.CSharp.Analzyer.CodeFix.MSTest | Analyzers for the MSTest library |
-| Microsoft.CodeAnalysis.CSharp.Analzyer.CodeRefactoring.MSTest | Analyzers for the MSTest library |
-| Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.MSTest |  Analyzers for the MSTest library |
-| Microsoft.CodeAnalysis.CSharp.Analzyer.CodeFix.XUnit | Analyzers for the XUnit library |
-| Microsoft.CodeAnalysis.CSharp.Analzyer.CodeRefactoring.XUnit | Analyzers for the XUnit library |
-| Microsoft.CodeAnalysis.CSharp.Analyzer.Testing.XUnit |  Analyzers for the XUnit library |
 | Microsoft.EntityFrameworkCore.Analyzers | Analyzers for Entity Framework Core library |
 | Microsoft.VisualStudio.Threading.Analyzers | Static code analyzer to detect common mistakes or potential issues regarding threading and async coding |
 | Philips.CodeAnalysis.DuplicateCodeAnalyzer | A set of analyzers that help detect duplicate code |
