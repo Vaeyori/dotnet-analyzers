@@ -27,7 +27,7 @@
   <ItemGroup>
     <PackageReference Include="ClrHeapAllocationAnalyzer" Version="3.0.0" />
     <PackageReference Include="InclusivenessAnalyzer" Version="1.2.0" />
-    <PackageReference Include="Meziantou.Analyzer" Version="1.0.679">
+    <PackageReference Include="Meziantou.Analyzer" Version="1.0.680">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
